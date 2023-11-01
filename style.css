@@ -1,0 +1,61 @@
+body {
+    background-color: #7ac493;
+    
+}
+
+h1 {
+    font-family: 'Shrikhand', serif;
+    color: palegoldenrod;
+    text-align: center;
+    font-size: 4rem;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.bunny {
+    
+    max-width: 400px;
+    max-height: 300px;
+    float: left;
+    -webkit-shape-outside:circle;
+    clip-path: circle();
+    shape-outside: circle();
+    shape-margin: 3rem;
+}
+
+.blend img:hover {
+    mix-blend-mode: luminosity;
+    
+}
+
+.bun2 {
+    max-width: 400px;
+    max-height: 400px;
+    float: right;
+    -webkit-shape-outside:circle;
+    clip-path: circle();
+    shape-outside: circle();
+    shape-margin: 1rem;
+}
+
+.masks {
+    padding-bottom:30px ;
+    
+}
+
+.masks img:hover{
+    mix-blend-mode: saturation;
+}
+
+#p1, #p2{
+    max-width: 800px;
+}
+
+.blend {
+    
+}
